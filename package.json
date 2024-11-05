@@ -1,6 +1,7 @@
 {
   "name": "movie-frontend-presentation",
-  "private": true,
+  "private": false,
+  "homepage": "https://brobo1.github.io/movie-frontend-presentation",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
