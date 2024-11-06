@@ -1,3 +1,5 @@
+import "./Card.css";
+
 type CardTypes = {
   img: string;
   title: string;
@@ -8,7 +10,7 @@ export function Card(props: CardTypes) {
     <>
       <div className={"card"}>
         <p>{props.title}</p>
-        <img src={props.img} alt={props.title} />
+        <img className={"card-img"} src={props.img} alt={props.title} />
       </div>
     </>
   );
