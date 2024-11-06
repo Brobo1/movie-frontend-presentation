@@ -9,7 +9,7 @@ export function Card(props: CardTypes) {
   return (
     <>
       <div className={"card"}>
-        <p>{props.title}</p>
+        <p className={"card-title"}>{props.title}</p>
         <img className={"card-img"} src={props.img} alt={props.title} />
       </div>
     </>
