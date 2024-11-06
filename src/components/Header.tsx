@@ -7,7 +7,7 @@ export function Header() {
         <nav>
           <ul>
             <li>Home</li>
-            <li></li>
+            <li>Username</li>
           </ul>
         </nav>
       </div>
