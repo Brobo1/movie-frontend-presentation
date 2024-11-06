@@ -7,10 +7,12 @@ ul {
 }
 
 li {
-  padding: 5px;
+  padding: 5px 10px;
   align-self: center;
   transition: 200ms background-color;
   border-radius: 3px;
+  user-select: none;
+  cursor: pointer;
 }
 
 li:hover {
