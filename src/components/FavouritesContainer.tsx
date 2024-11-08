@@ -5,6 +5,7 @@ import { fetchFavouritesOfUser } from "../api/favourites.tsx";
 import { fetchMovieById } from "../api/movies.tsx";
 
 type Movie = {
+  id: number;
   imgUrl: string;
   title: string;
 };
@@ -30,8 +31,8 @@ export function FavouritesContainer() {
   return (
     <>
       <div id="card-container">
-        {movies.map((movie, index) => (
-          <Card img={movie.imgUrl} title={movie.title} key={index}></Card>
+        {movies.map((movie) => (
+          <Card img={movie.imgUrl} title={movie.title} key={movie.id}></Card>
         ))}
       </div>
     </>

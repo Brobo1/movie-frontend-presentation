@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { fetchUserById } from "../api/user.tsx";
 
 type User = {
+  id: number;
   username: string;
   password: string;
   email: string;
