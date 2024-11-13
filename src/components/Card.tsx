@@ -4,7 +4,7 @@ import React from "react";
 type CardTypes = {
   img: string;
   title: string;
-  style: React.CSSProperties;
+  style?: React.CSSProperties;
 };
 
 export function Card(props: CardTypes) {

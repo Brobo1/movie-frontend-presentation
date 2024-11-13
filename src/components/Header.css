@@ -7,12 +7,27 @@ ul {
 }
 
 li {
-  padding: 5px 10px;
   align-self: center;
   transition: 200ms background-color;
   border-radius: 3px;
   user-select: none;
   cursor: pointer;
+
+}
+
+li, .user {
+  padding: 5px 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 100px;
+  align-items: end;
+}
+
+.user {
+  font-weight: 500;
 }
 
 li:hover {

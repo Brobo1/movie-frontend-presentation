@@ -39,7 +39,7 @@ export function CardContainer() {
         {movies.map((movie) => (
           <Card
             style={{
-              backgroundColor: `${favourites.some((fav) => fav.movieId === movie.id) ? "red" : ""}`,
+              backgroundColor: `${favourites.some((fav) => fav.movieId === movie.id) ? "#373737" : ""}`,
             }}
             img={movie.imgUrl}
             title={movie.title}

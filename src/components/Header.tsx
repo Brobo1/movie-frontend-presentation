@@ -21,13 +21,14 @@ export function Header() {
   return (
     <>
       <div className="header">
+        <div className={"user"}>{user ? user.username : "loading"}</div>
         <nav>
           <ul>
             <li>
               <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <Link to={"/Favourites"}>{user ? user.username : "Loading"}</Link>
+              <Link to={"/Favourites"}>Favourites</Link>
             </li>
           </ul>
         </nav>
